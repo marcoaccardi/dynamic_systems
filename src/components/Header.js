@@ -27,7 +27,7 @@ const Header = () => {
           onMouseLeave={mouseLeaveHandler}
         >
           <Link
-            to={"/dynamicsystem"}
+            to={"/about"}
             className="text-primary hover:text-primary transition"
           >
             About

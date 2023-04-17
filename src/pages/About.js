@@ -23,7 +23,7 @@ const About = () => {
       <div
         onMouseEnter={mouseEnterHandler}
         onMouseLeave={mouseLeaveHandler}
-        className="container mx-auto"
+        className="container mx-auto h-full"
       >
         {/* text & img wrapper */}
         <div className="flex flex-col lg:flex-row items-center justify-center gap-x-24 text-center lg:text-left lg:pt-16 ">
@@ -69,7 +69,7 @@ const About = () => {
               animate={{ scale: 1 }}
               exit={{ scale: 0 }}
               transition={transition1}
-              className="h-full w-full object-cover overflow-hidden"
+              className="h-full w-full object-cover"
             >
               <motion.img
                 // whileHover={{ scale: 1. }}

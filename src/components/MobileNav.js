@@ -51,7 +51,7 @@ const MobileNav = () => {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/dynamicsystem">About</Link>
+            <Link to="/about">About</Link>
           </li>
           <li>
             <Link to="/scientificresearch">Scientific research</Link>
