@@ -18,7 +18,7 @@ const Home = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={transition1}
-      className="section"
+      className="section h-full"
     >
       <div className="h-full">
         {/* text & img wrapper */}
@@ -40,7 +40,7 @@ const Home = () => {
               an artistic and scientific research <br /> based on the <br />
               global sea ice-ocean data by FESOM
             </p>
-            <Link to={"/dynamicsystem"} className="btn">
+            <Link to={"/about"} className="btn">
               explore
             </Link>
           </motion.div>

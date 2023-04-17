@@ -23,7 +23,7 @@ const About = () => {
       <div
         onMouseEnter={mouseEnterHandler}
         onMouseLeave={mouseLeaveHandler}
-        className="container mx-auto"
+        className="container mx-auto h-full"
       >
         {/* text & img wrapper */}
         <div className="flex flex-col lg:flex-row items-center justify-center gap-x-24 text-center lg:text-left lg:pt-16">

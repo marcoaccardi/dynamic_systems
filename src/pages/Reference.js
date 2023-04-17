@@ -23,7 +23,7 @@ const Reference = () => {
       <div
         onMouseEnter={mouseEnterHandler}
         onMouseLeave={mouseLeaveHandler}
-        className="container mx-auto"
+        className="container mx-auto h-full"
       >
         {/* text & img wrapper */}
         <div className="flex flex-col lg:flex-row items-center justify-center gap-x-24 text-center lg:text-left lg:pt-16">
@@ -35,7 +35,7 @@ const Reference = () => {
             className="m-10 flex-1 pt-8 pb-8 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-start"
           >
             <h1 className="mt-20 text-2xl lg:text-4xl font-bold mb-4 text-gray-800">
-              Resources{" "}
+              Resources
             </h1>
             <p className="text-sm lg:text-base mb-6 text-gray-800">
               Reference 1 sea-ice data: Fetterer, F., K. Knowles, W. N. Meier,
@@ -56,13 +56,13 @@ const Reference = () => {
             </Link>
           </motion.div>
           {/* image */}
-          <div className="w-full absolute inset-0 flex items-center justify-center opacity-60">
+          <div className="h-full absolute inset-0 flex items-center justify-center opacity-60">
             <motion.div
               initial={{ scale: 0 }}
               animate={{ scale: 1 }}
               exit={{ scale: 0 }}
               transition={transition1}
-              className="h-full w-full object-cover overflow-hidden"
+              className="h-full w-full object-cover"
             >
               <motion.img
                 // whileHover={{ scale: 1. }}
