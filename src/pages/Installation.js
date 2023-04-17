@@ -7,7 +7,7 @@ import { Particles } from "./Particles";
 import * as Tone from "tone";
 import { Filter, Player, Reverb, Transport } from "tone";
 import src from "./audio.mp3";
-
+import "../styles.css";
 function Installation() {
   // const props = useControls({
   //   focus: { value: 6.72, min: 3, max: 7, step: 0.01 },
